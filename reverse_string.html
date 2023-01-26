@@ -4,54 +4,71 @@
     <meta charset="UTF-8">
 	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>bill</title>
+    <title>reverse number</title>
 </head>
 <body>
    <script>
    
       // reverse_string
       
-      var num=prompt("Ener Number");
-			var sum=0;
-			while (num>0){
+      <!-- var num=prompt("Ener Number"); -->
+			<!-- var sum=0; -->
+			<!-- while (num>0){ -->
 			
-				var rem=num%10;
-					sum=(sum*10)+rem;
+				<!-- var rem=num%10; -->
+					<!-- sum=(sum*10)+rem; -->
 					
-				num=(num-rem)/10;
+				<!-- num=(num-rem)/10; -->
 				
 			
-				if (rem==0){
-					console.log("zero");
-				}
-				else if (rem==1){
-					console.log("One");
-				}
-				else if (rem==2){
-					console.log("Two");
-				}
-				else if (rem==3){
-					console.log("Three");
-				}
-				else if (rem==4){
-					console.log("Four");
-				}
-				else if (rem==5){
-					console.log("Five");
-				}
-				else if (rem==6){
-					console.log("Six");
-				}
-				else if (rem==7){
-					console.log("Seven");
-				}
-				else if (rem==8){
-					console.log("eight");
-				}
-				else if (rem==9){
-					console.log("Nine");
-				}
-			}
+				<!-- if (rem==0){ -->
+					<!-- document.write("zero"); -->
+				<!-- } -->
+				<!-- else if (rem==1){ -->
+					<!-- document.write("One"); -->
+				<!-- } -->
+				<!-- else if (rem==2){ -->
+					<!-- document.write("Two"); -->
+				<!-- } -->
+				<!-- else if (rem==3){ -->
+					<!-- document.write("Three"); -->
+				<!-- } -->
+				<!-- else if (rem==4){ -->
+					<!-- document.write("Four"); -->
+				<!-- } -->
+				<!-- else if (rem==5){ -->
+					<!-- document.write("Five"); -->
+				<!-- } -->
+				<!-- else if (rem==6){ -->
+					<!-- document.write("Six"); -->
+				<!-- } -->
+				<!-- else if (rem==7){ -->
+					<!-- document.write("Seven"); -->
+				<!-- } -->
+				<!-- else if (rem==8){ -->
+					<!-- document.write("eight"); -->
+				<!-- } -->
+				<!-- else if (rem==9){ -->
+					<!-- document.write("Nine"); -->
+				<!-- } -->
+			<!-- } -->
+			
+			
+			
+			//reverse_number
+			
+			  var num = parseInt(prompt("enter a number"));
+			  var ans = 0;
+			  
+			  while(num > 0){
+				 var rem = (num % 10);
+				 num = parseInt(num / 10);
+				 ans =(ans * 10) + rem;
+			  }
+			  console.log(ans);
+	  
+	 
+			
    </script>
 </body>
 </html>
